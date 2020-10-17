@@ -1,0 +1,12 @@
+body, html {
+  text-align: center;
+  height: 100%;
+  background: linear-gradient(#ffdecc,#d0ffcc);
+}
+
+h1 {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Righteous', cursive;
+  font-size: 5em;
+}
