@@ -3,5 +3,10 @@
 <div>
   Goal: {{goal.goal}}
 </div>
+{{#if goal}}
+{{progress-bar}}
+{{else}}
+{{goal-form}}
+{{/if}}
 {{/each}}
 {{outlet}}
