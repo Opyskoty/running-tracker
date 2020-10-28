@@ -1,9 +1,9 @@
 {{yield}}
 <form {{on "submit" this.handleSubmit}}>
-  <label for="amount">Miles</label>
+  <label for="amount">Add Miles</label>
   <Input @type="text" id="amount" name="amount" value={{this.value}} {{on "change" this.updateValue}} />
-  <button type="submit">Log Miles</button>
+  <button class="log-miles" type="submit">Log Miles</button>
 </form>
 <div>
-  <button type="button" {{on "click" this.newGoal}}>New Goal</button>
+  <button class="new-goal" type="button" {{on "click" this.newGoal}}>New Goal</button>
 </div>

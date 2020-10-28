@@ -2,5 +2,5 @@
 <form {{on "submit" this.handleSubmit}}>
   <label for="goal">Running Goal</label>
   <Input @type="text" id="goal" name="goal" value={{this.value}} {{on "change" this.updateValue}} />
-  <button type="submit">Go run!</button>
+  <button class="run-btn" type="submit">Go run!</button>
 </form>
