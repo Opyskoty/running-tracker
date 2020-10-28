@@ -1,10 +1,8 @@
 <h1>Run Towards Your Goal!</h1>
 {{#each model as |goal|}}
-<div>
-  Goal: {{goal.goal}}
-</div>
-{{#if goal}}
-{{progress-bar}}
+{{#if goal.goal}}
+<Progress @progress={{goal.progress}} @goal={{goal.goal}} />
+<Progress-form />
 {{else}}
 {{goal-form}}
 {{/if}}
