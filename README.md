@@ -1,4 +1,5 @@
 # running-tracker
+Small app for setting a running goal. Add miles and watch the progress bar fill up as you reach your goal!
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
